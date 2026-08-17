@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
-    <title>なだらんのポートフォリオ</title>
+    <title>なだらんのポートフォリオEX</title>
   </head>
   <body>
-    <h1>灘藍</h1>
-  　<img src="DMeSZUtH_400x400.jpg" width="280">
+    <header>なだらんのポートフォリオEX</header>
+    <div id='darkmodeBtn'>ダークモードに切り替え<br>もう一度押すとライトモードに戻るよ</div>
+    <img src="DMeSZUtH_400x400.jpg" width="280"></div>
     
-    <h2>一言</h2>
-    <p>　　　機械いじりが少し得意です</p>
+    <div class="gacha-box">
+      <button id="gacha-btn">一言ガチャ<br>ここをクリック</br></button>
+      <p id="gacha-result">（ここに戯言が表示されるよ）</p>
+   </div>
 
     <h3>プロフィール</h3>
     <ul>
@@ -23,13 +26,14 @@
     <h3>できること・得意なこと</h3>
     <ul>
       <li>VS Code、Githubなどのツールの基礎的な操作</li>
-      <li>簡単なHTMLの作成</li>
-      <li>他者との協調</li>
+      <li>DockerとNode.jsを使ったプログラミング</li>
+      <li>JavaScriptを使った動きのあるHTMLの作成</li>
+      <li>空気読み</li>
     </ul>
 
     <h3>好きなもの・こと</h3>
     <ul>
-      <li>ポケモン　一番好きなのはヌメルゴン</li>
+      <li>ポケモン　一番好きなポケモンはヌメルゴン</li>
       <li>VALORANT　最近は観戦ばっかり</li>
       <li>音ゲー　スマホ音ゲーもAC音ゲーもどっちもやってる</li>
       <li>東方Project　原作はノーマルシューター　好きなキャラは二ッ岩マミゾウ</li>
@@ -57,9 +61,8 @@
     </table>
 
     <h3>好きな曲</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mLoicLxFkOo?si=qqlc3EW4es3SMvNJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <h3>Open Processing</h3>
-    <iframe src="https://openprocessing.org/sketch/2805129/embed/" width="640" height="360"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVouIyflbVI" title="Area Zero - Cinematic Arrangement (from Pokémon Scarlet / Violet)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <script src="darkmode.js"></script>
+    <script src="hitokoto.js"></script>
   </body>
 </html>
