@@ -19,6 +19,35 @@ body {
   margin: 0;
   padding: 30px;
   color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: cyan;
+  text-align: center;
+}
+
+#darkmodeBtn {
+  background-color: gray;
+  color: white;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 20px;
+}
+
+#darkmodeBtn:hover {
+  opacity: 0.7;
+}
+
+#gacha-btn {
+  background-color: #b3ff00;
+  border-radius: 13px;
+}
+
+#gacha-btn:hover {
+  opacity: 0.7;
 }
 
 /* --------------------
@@ -46,7 +75,7 @@ ul {
   list-style: none;
 }
 li:before {
-  content: "★";
+  content: "●";
   color: var(--theme-color);
 }
 
@@ -59,6 +88,7 @@ table {
   border-collapse: collapse;
   border: solid 1px #f0f0f0;
   min-width: 50%;
+  margin:auto
 }
 tr {
   background-color: #fff;
@@ -73,4 +103,37 @@ th {
 th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
+}
+
+/* --------------------
+      ダークモード
+-------------------- */
+.dark {
+  background-color: #000000;
+  color: #d6d6d6;
+}
+
+.dark header {
+  background-color: #282896;
+}
+
+.dark #darkmodeBtn {
+  background-color: #d6d6d6;
+  color: #000000;
+}
+
+.dark a {
+  color: #507fff;
+}
+
+.dark td{
+  background-color: #000000;
+}
+
+.dark #gacha-btn {
+  background-color: #b3ff00d8;
+}
+
+.dark img {
+  filter: brightness(80%);
 }
