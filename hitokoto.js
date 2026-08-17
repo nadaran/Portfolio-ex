@@ -9,10 +9,10 @@ const items = [
   "エンディングは、1つじゃない"
 ];
 
-const gachabtn = document.getElementById("gacha-btn");
+const gachaBtn = document.getElementById("gacha-btn");
 const result = document.getElementById("gacha-result");
 
-gachabtn.addEventListener("click", () => {
+gachaBtn.addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * items.length);
   result.textContent = items[randomIndex];
 });
